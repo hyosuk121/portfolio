@@ -24,9 +24,9 @@
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Project</a></li>
+                        <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Career</a></li>
-                        <li class="nav__item"><a href="#anotherskill" class="nav__link">Another Skills</a></li>
+                        <li class="nav__item"><a href="#Anotherskill" class="nav__link">Another Skills</a></li>
                     </ul>
                 </div>
 
@@ -87,7 +87,7 @@
             </section>
 
             <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
+            <section id="skills">
                 <h2 class="section-title">Skills</h2>
 
                 <div class="skills__container bd-grid">          
@@ -163,44 +163,104 @@
                 </div>
             </section>
 
-            <!--===== WORK =====-->
-            <section class="work section" id="project">
-                <h2 class="section-title">Project</h2>
+            <!--===== Project=====-->
+            <section id="project">
+                <div class="main-container">
+                    <h2 class="section-title">Projects</h2>
+                    <p class="about__subtitle">진행했던 주요 프로젝트들입니다. <strong>'Learn more'버튼</strong>을 통해 더 자세히 볼 수 있습니다.</p>
+            
+                    <div class="projects__content">
+                      <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                          <img
+                            src="./assets/img/project1.png"
+                            alt="Software Screenshot"
+                            class="projects__row-img"
+                            loading="lazy"
+                          />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="skills__subtitle">Project 1 (공공데이터 시각화 및 분석프로젝트) </h3>
+                            <div>
+                            <p class="skills__name"><sytle>
+                            
+                                <br><strong>사용언어</strong> : Python
+                                <br><strong>수행도구</strong> : Folium, Pandas, matplot, seaborn
+                                <br>
+                            <br>전기 자동차에 관련된 공공데이터의 분석 및 시각화를 통해 전기자동차의 현황과 경제성 및 인프라에 대한 문제점을 확인하고 사용 확대 방안을 제안합니다.
+                          </p>
+                          </div>
+                          <br>
+                          <br>
+                          <a href="assets/img/portfolio_team1.html" class="button">Learn more</a>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="projects__content">
+                        <div class="projects__row">
+                          <div class="projects__row-img-cont">
+                            <img
+                              src="./assets/img/project2.png"
+                              alt="Software Screenshot"
+                              class="projects__row-img"
+                              loading="lazy"
+                            />
+                          </div>
+                          <div class="projects__row-content">
+                              <h3 class="skills__subtitle">Project 2 (요구 사항 기반의 문제 해결 프로젝트) </h3>
+                              <div>
+                              <p class="skills__name"><sytle>
+                              
+                                  <br><strong>사용언어</strong> : Python
+                                  <br><strong>수행도구</strong> : AWS EC2, YoloV3, MySql, Django
+                                  <br>
+                              <br>한국 음식에 대한 관심도 증가에 따라 외국인을 위한 웹 서비스를 제작하였습니다. 웹에서 음식 이미지를 업로드하면 Yolo를 통해 인식하고 해당 음식에 대한 정보를 제공합니다.
+                            </p>
+                            </div>
+                            <br>
+                            <br>
+                            <a href="https://github.com/hyosuk121/image-classification-and-imformation-of-korean-food-for-foreigner/blob/main/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EC%88%98%EC%A0%95%204.pdf"
+                             class="button">Learn more</a>
+                          </div>
+                          </div>
+                        </div>
+                        <div class="projects__content">
+                            <div class="projects__row">
+                              <div class="projects__row-img-cont">
+                                <img
+                                  src="./assets/img/project3.png"
+                                  alt="Software Screenshot"
+                                  class="projects__row-img"
+                                  loading="lazy"
+                                />
+                              </div>
+                              <div class="projects__row-content">
+                                  <h3 class="skills__subtitle">Project 3 (주식 데이터 시각화 웹 서비스) </h3>
+                                  <div>
+                                  <p class="skills__name"><sytle>
+                                  
+                                      <br><strong>사용언어</strong> : Python
+                                      <br><strong>수행도구</strong> : Yahoo Finance api, Streamlit, Sklearn, Pyplot
+                                      <br>
+                                  <br>Yahoo Finance로부터 크롤링한 데이터를 시각화하여 Streamlit을 이용한 웹서비스로 제공합니다. 축적된 데이터로 선형회귀를 통해 미래 주가를 예측합니다.
+                                </p>
+                                </div>
+                                <br>
+                                <br>
+                                <a href="https://github.com/hyosuk121/stock_prediction_streamlit/blob/main/%EC%A3%BC%EC%8B%9D%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%8B%9C%EA%B0%81%ED%99%94%20%EB%B0%8F%20%EC%98%88%EC%B8%A1%20%EC%9B%B9%20%EC%84%9C%EB%B9%84%EC%8A%A4.pdf" 
+                                class="button">Learn more</a>
+                              </div>
+                              </div>
+                            </div>
+                      
+                      
 
-                <div class="work__container bd-grid">
-                    <a href="assets/img/portfolio_team1.html" class="work__img">
-                        <img src="assets/img/ecarimage.jpg" alt="">
-                        
-                    </a>
-                    <p class="about__text"><i class='bx bx-car skills__icon'></i>
-                        <br><strong>공공데이터 시각화 및 분석프로젝트</strong><br>사용언어 : Python
-                        <br>수행도구 : Folium, Pandas, matplot, seaborn</p>
-                    <br>전기 자동차에 관련된 공공데이터의 분석 및 시각화를 통해 전기자동차의 현황과 경제성 및 인프라에 대한 문제점을 확인하고 사용 확대 방안을 제안합니다.
-                    
-                    <a href="https://github.com/hyosuk121/image-classification-and-imformation-of-korean-food-for-foreigner/blob/main/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EC%88%98%EC%A0%95%204.pdf" class="work__img">
-                        <img src="assets/img/koreanfood.png" alt="">
-                    </a>
-                    <p class="about__text"><i class='bx bx-food-menu skills__icon'></i>
-                        <br><strong>요구 사항 기반의 문제 해결 프로젝트</strong>
-                        <br>사용언어 : Python
-                        <br>수행도구 : AWS EC2, YoloV3, MySql, Django
-                    </p>
-                    <br>한국 음식에 대한 관심도 증가에 따라 외국인을 위한 웹 서비스를 제작하였습니다. 웹에서 음식 이미지를 업로드하면 Yolo를 통해 인식하고 해당 음식에 대한 정보를 제공해줍니다.  
-                    <a href="https://github.com/hyosuk121/stock_prediction_streamlit/blob/main/%EC%A3%BC%EC%8B%9D%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%8B%9C%EA%B0%81%ED%99%94%20%EB%B0%8F%20%EC%98%88%EC%B8%A1%20%EC%9B%B9%20%EC%84%9C%EB%B9%84%EC%8A%A4.pdf" class="work__img">
-                        <img src="assets/img/stock.jpg" alt="">
-                    </a>
-                        <p class="about__text"><i class='bx bx-line-chart skills__icon'></i>
-                            <br><strong>주식 데이터 시각화 웹 서비스</strong>
-                            <br>사용언어 : Python
-                            <br>수행도구 : Yahoo Finance api, Streamlit, Sklearn, Pyplot
-                        </p>
-                        <br>Yahoo Finance로부터 크롤링한 데이터를 시각화하여 Streamlit을 이용한 웹서비스로 제공합니다. 축적된 데이터를 선형회귀를 통해 예측합니다.
-                    
-                </div>
+                    </div>
+                  </div>
             </section>
 
             <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
+            <section  id="contact">
                 <h2 class="section-title">Career</h2>
                 <div class="skills__container bd-grid">
                     
@@ -249,22 +309,27 @@
             </div>
             </section>
           <!--===== another skills=====-->
-            <section>
+            <section class="contact section" id="Anotherskill">
+    
                 <h2 class="section-title">Another Skills</h2>
                 <div class="skills__container bd-grid">
                 <!-- <h2 class="skills__subtitle">Another Skills</h2> -->
                  <div>
-                   <i class='bx bx-music skills__icon'></i>1. Music producing (Cubase)
+                   <i class='bx bx-music skills__icon'></i><strong>1. Music producing (Cubase)</strong>
                  </div>
                  <br>
                  <div>
-                    <i class='bx bx-paint skills__icon'></i>2. Painting (ProCreate)
+                    <i class='bx bx-paint skills__icon'></i><strong>2. Painting (ProCreate)</strong>
                  </div>
                  <br>
                  <div>
-                    <i class='bx bx-video skills__icon'></i>3. Video Editing (LumaFusion, Adobe After Effect)
+                    <i class='bx bx-video skills__icon'></i><strong>3. Video Editing (LumaFusion, Adobe After Effect)</strong>
                   </div>
+                <br>
+                <div>
                   <a href="https://www.youtube.com/channel/UCmEmHiP8RvP5qFdqZpe2hgQ" class="home__social-icon"><i class='bx bxl-youtube' ></i></a>
+                  <a href="https://soundcloud.com/user-58129437" class="home__social-icon"><i class='bx bxl-soundcloud' ></i></a>
+                </div>
             </section>
             <br>
             <br>

@@ -51,9 +51,11 @@ body {
   color: var(--second-color);
 }
 
-h1, h2, p {
+h1, h2, p, h3{
   margin: 0;
 }
+
+
 
 ul {
   margin: 0;
@@ -96,6 +98,7 @@ img {
 .section {
   padding-top: 3rem;
   padding-bottom: 2rem;
+  
 }
 
 /*===== LAYOUT =====*/
@@ -480,6 +483,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     padding-top: 2rem;
+    
   }
   .contact__form {
     width: 360px;
@@ -497,6 +501,9 @@ img {
   .section {
     padding-top: 4rem;
     padding-bottom: 3rem;
+    background: url(../../assets/img/bg.png);
+    background-position: center;
+    background-size:auto;
   }
   .section-title {
     margin-bottom: var(--mb-6);
@@ -531,6 +538,7 @@ img {
   }
   .about__container {
     padding-top: 2rem;
+   
   }
   .about__img img {
     width: 300px;
@@ -559,3 +567,59 @@ img {
     width: 450px;
   }
 }
+
+.projects__row {
+  
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 5rem;
+  margin-bottom: 11rem; }
+  @media only screen and (max-width: 56.25em) {
+    .projects__row {
+      grid-template-columns: 1fr;
+      grid-gap: 2rem;
+      margin-bottom: 8rem; } }
+  @media only screen and (max-width: 56.25em) {
+    .projects__row {
+      text-align: center; } }
+  .projects__row:last-child {
+    margin-bottom: 0; }
+  .projects__row-img-cont {
+    overflow: hidden; }
+  .projects__row-img {
+    width: 90%;
+    display: block;
+    object-fit: cover; }
+  .projects__row-content {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start; }
+    @media only screen and (max-width: 56.25em) {
+      .projects__row-content {
+        align-items: center; } }
+    .projects__row-content-title {
+      font-weight: 700;
+      font-size: 2.8rem;
+      margin-bottom: 2rem; }
+      @media only screen and (max-width: 37.5em) {
+        .projects__row-content-title {
+          font-size: 2.4rem; } }
+    .projects__row-content-desc {
+      font-size: 1.8rem;
+      color: grey;
+      max-width: 60rem;
+      line-height: 1.7;
+      margin-bottom: 3rem; }
+      @media only screen and (max-width: 37.5em) {
+        .projects__row-content-desc {
+          font-size: 1.7rem; } }
+
+
+.main-container {
+  max-width: 120rem;
+  margin: auto;
+  width: 80%; }
+
+  
