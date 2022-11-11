@@ -340,7 +340,7 @@ img {
 }
 
 .skills__tools {
-  width: 30%;
+  width: 50%;
 }
 
 .skills__graduation {
@@ -357,7 +357,8 @@ img {
 
 
 .skills__img {
-  border-radius: .5rem;
+  border-radius: .6rem;
+  
 }
 
 /* ===== WORK =====*/
