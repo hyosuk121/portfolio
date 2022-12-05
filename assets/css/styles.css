@@ -352,7 +352,10 @@ img {
 }
 
 .skills__career {
-  width: 30%;
+  width: 100%;
+}
+.skills__award {
+  width: 100%;
 }
 
 
