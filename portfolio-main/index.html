@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <!-- Timeline test -->
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css'>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700'>
+        
+        <title>Hyoseok's Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Hyoseok</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
+                        <li class="nav__item"><a href="#award" class="nav__link">Career</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Awards</a></li>
+                        <li class="nav__item"><a href="#Anotherskill" class="nav__link">Another Skills</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Hyoseok Hong</span><br>Product Manager</h1>
+
+                    <a href="assets/img/홍효석 이력서.pdf" class="button">Download CV</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://docs.google.com/presentation/d/139fa-_8T6HVf4mfLOsZFJv7qqKWIXoHk0FdHkkc7dkI/edit#slide=id.g308928f39d2_0_332" class="home__social-icon"><i class='bx-cloud-upload' ></i>
+                        <p class="about__text">PPT</p></a>
+                    <a href="https://rain-mambo-6d5.notion.site/Hyoseok-Hong-Portfolio-116e90c3309d80b7864ae9dd40e8eb85" class="home__social-icon"><i class='bx bx-link'></i>
+                        <p class="about__text">notion</p></a>
+                    <a href="https://github.com/hyosuk121" class="home__social-icon"><i class='bx bxl-github' ></i>
+                        <p class="about__text">github</p></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/profile2.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section-2 " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/About.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Hyoseok Hong</h2>
+                        <p class="about__text">안녕하세요👋
+                            <br> 저는 <strong>개발부터 데이터, 그리고 UI/UX까지 다양한 경험을 갖춘 3년차 프로덕트 매니저,</strong> 
+                            <br> <strong>홍효석</strong>입니다.
+                            <br>대학교에서 '응용컴퓨터 공학과'를 전공하며 <strong>컴퓨터의 기초적인 지식을 숙련</strong>한 이후,
+                            <br>'멀티캠퍼스'라는 교육기관에서 '데이터 사이언스/엔지니어링' 교육과정을 수료하며 데이터에 관한 기술을 강화하였습니다.
+                        <br>해당 과정을 통해 <strong>RDBMS, NoSQL의 다양한 데이터 베이스 환경 구축 경험</strong>과 <strong>Python을 활용한 시각화 및 데이터 분석</strong>에 관한 경험을 쌓을 수 있었습니다.
+                        <br>이후,한국지능정보사회진흥원에서 주최하는 공공데이터 기업매칭 청년인턴을 통해, 데이터 솔루션을 제공하는 회사에서 <strong>데이터 수집 및 시각화, Javacript를 활용한 데이터 포털 개발</strong> 역할을 맡고, 현장에서의 프로세스를 경험하고 능력을 숙련하였습니다.
+                        <br> 현재는 'Tmax Cloud'라는 회사에서 Product Manager로써, <strong>보안 OS제품과 OS제품을 중앙에서 통제 및 관리하는 중앙 관리 서버를 담당하며, 제품을 기획 및 관리</strong>하고 있습니다.
+                        </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class ="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text"></p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-python skills__icon'></i>
+                                
+                                <span class="skills__name">Programming Language (Python, Javascript)</span>
+                            </div>
+                            <div class="skills__bar skills__python">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-data skills__icon'></i>
+                                <span class="skills__name">Database (MySQL, Elastic Search)</span>
+                            </div>
+                            <div class="skills__bar skills__database">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">40%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-figma skills__icon' ></i>
+                                <span class="skills__name">UI Tool (Figma, draw.io)</span>
+                            </div>
+                            <div class="skills__bar skills__ui">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-paperclip skills__icon'></i>
+                                <span class="skills__name">Document (Powerpoint, Excel)</span>
+                            </div>
+                            <div class="skills__bar skills__doc">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-bar-chart skills__icon'></i>
+                                <span class="skills__name">Project Management (Jira, Redmine, Notion)</span>
+                            </div>
+                            <div class="skills__bar skills__project">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>  
+                                    <!-- Chart Js -->
+                                    <div class="skills__img">
+                                                <canvas id = "myChartOne"></canvas>
+                                            </div>
+                                        </div>
+                                    </div>                
+                        <!-- <img src="assets/img/skills.jpg" alt="" class="skills__img"> -->
+                    </div>
+                </div>
+                <script>
+                    let myChartOne = document.getElementById('myChartOne').getContext('2d');
+                    
+                    let barChart = new Chart(myChartOne,{
+                        type : 'radar', //pie, line ... , bar
+                        data : {
+                            labels:['Programming Language','Database','Figma','Doc','Project'],
+                            datasets : [{
+                                label : '숙련도(%)',
+                                         
+                                data : [
+                                    50,
+                                    40,
+                                    60,
+                                    80,
+                                    80
+                                ],
+                                backgroundColor:[
+                                    'rgba(0, 133, 255, 0.7)',
+                                    // 'rgba(0, 100, 255, 0.7)',
+                                    // 'rgba(0, 133, 255, 0.7)',
+                                    // 'rgba(0, 100, 255, 0.7)',
+                                    // 'rgba(0, 133, 255, 0.7)'
+                                ],
+                                borderWidth : 2,
+                                borderColor : 'rgba(209, 209, 209)',
+                                hoverBorderWidth : 5,
+                                
+                            }]
+                        },
+                        options: {
+                           scales : {
+                            r: {
+                                angleLines: {
+                                display: false
+                                    },
+                                suggestedMin: 0,
+                                suggestedMax: 100
+                                }
+                           },
+                           plugins: {
+                           title: {
+                                display: true,
+                                text: 'My Skills'
+            
+                            }
+                        },
+                        // indexAxis : 'y',
+                        // responsize: true
+                     }
+                     
+                    });
+            
+                </script>
+            </section>
+
+            <!--===== Project=====-->
+            <section class= "project section" id="project">
+                <div class="main-container">
+                    <h2 class="section-title">Projects</h2>
+                    <p class="about__subtitle">진행했던 주요 프로젝트들입니다. <strong>'Learn more'버튼</strong>을 통해 더 자세히 볼 수 있습니다.</p>
+                    <div class="projects__content">
+                        <div class="projects__row">
+                          <div class="projects__row-img-cont">
+                            <img
+                              src="./assets/img/project3.png"
+                              alt="Software Screenshot"
+                              class="projects__row-img"
+                              loading="lazy"
+                            />
+                          </div>
+                          <div class="projects__row-content">
+                              <h3 class="skills__subtitle">Solo Project 
+                                <br>(포트폴리오 웹 개발 및 배포 프로젝트) </h3>
+                              <div>
+                              <p class="skills__name"><sytle>
+                              
+                                  <br><strong>- Product Manager</strong> : 홍효석
+                                  <br><strong>- UI & Design</strong> : 홍효석
+                                  <br><strong>- Development</strong> : 홍효석
+                                  <br>
+                              <br>이 웹페이지는 홍효석의 경력과 보유 스킬, 주요 프로젝트를 한눈에 볼 수 있도록 구성된 포트폴리오입니다. 기획부터 UI/UX 디자인, 개발, 배포까지 모든 과정을 홍효석이 직접 관리하고 수행하였으며, 이를 통해 제품 기획부터 완성까지의 전 과정을 아우르는 그의 역량을 보여줍니다.
+                            </p>
+                            </div>
+                            <br>
+                            <br>
+                            <a href="https://www.figma.com/design/8H3ScmGUcaRgLQKYkgxAOd/Hyoseok_Portfolio?node-id=19-2949&t=yoX90I0rwCkqYxFj-4" 
+                            class="button">Learn more</a>
+                          </div>
+                          </div>
+                        </div>
+
+                        <!-- <div><br><br></div> -->
+
+
+                    <div class="projects__content">
+                      <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                          <img
+                            src="./assets/img/project 2.png"
+                            alt="Software Screenshot"
+                            class="projects__row-img"
+                            loading="lazy"
+                          />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="skills__subtitle">Team Project 1 
+                                <br>(공공데이터 시각화 및 분석프로젝트) </h3>
+                            <div>
+                            <p class="skills__name"><sytle>
+                            
+                                <br><strong>- 사용언어</strong> : Python
+                                <br><strong>- 수행도구</strong> : Folium, Pandas, matplot, seaborn
+                                <br><strong>- 역할</strong> : 아이디어 기획 및 전기자동차 증가추세 및 전국의 지역별 충전소 현황과 전기차 등록대수 현황 비교 및 분석
+                                <br>
+                            <br>전기 자동차에 관련된 공공데이터의 분석 및 시각화를 통해 전기자동차의 현황과 경제성 및 인프라에 대한 문제점을 확인하고 사용 확대 방안을 제안합니다.
+                          </p>
+                          </div>
+                          <br>
+                          <br>
+                          <a href="https://rain-mambo-6d5.notion.site/c62cd8e2c43347018b2c3188c4c40350?pvs=4" class="button">Learn more</a>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="projects__content">
+                        <div class="projects__row">
+                          <div class="projects__row-img-cont">
+                            <img
+                              src="./assets/img/project 3.png"
+                              alt="Software Screenshot"
+                              class="projects__row-img"
+                              loading="lazy"
+                            />
+                          </div>
+                          <div class="projects__row-content">
+                              <h3 class="skills__subtitle">Team Project 2 
+                                <br>(요구 사항 기반의 문제 해결 프로젝트) </h3>
+                              <div>
+                              <p class="skills__name"><sytle>
+                              
+                                  <br><strong>- 사용언어</strong> : Python
+                                  <br><strong>- 수행도구</strong> : AWS EC2, YoloV3, MySql, Django
+                                  <br><strong>- 역할</strong> : 아이디어 기획 및 Django와 MySql을 활용한 웹 및 데이터베이스 환경 구축, 회원가입,로그인,Yolo 기능 구현
+                                  <br>
+                              <br>한국 음식에 대한 관심도 증가에 따라 외국인을 위한 웹 서비스를 제작하였습니다. 웹에서 음식 이미지를 업로드하면 Yolo를 통해 인식하고 해당 음식에 대한 정보를 제공합니다.
+                            </p>
+                            </div>
+                            <br>
+                            <br>
+                            <a href="https://rain-mambo-6d5.notion.site/ccc9eac9af86430db087657c8fbb9c44?pvs=4"
+                             class="button">Learn more</a>
+                          </div>
+                          </div>
+                        </div>
+                      
+                    </div>
+                  </div>
+            </section>
+            <!-- Timeline test -->
+            <section class= "award section" id="award">
+                <h2 class = "section-title">Career</h2>
+                <div class="works__container bd-grid">
+                    
+
+                <!-- <div class='education'>
+                </div> -->
+                    <div class='education__content'>
+                        <h5>단국대학교</h5>
+                    <span class='year'>2013</span>
+                        <p><strong>단국대학교(죽전캠퍼스) 응용컴퓨터공학과 졸업 (2013.03 ~ 2021.02)</strong></p>
+                    </div>
+                        <div class='education__content'>
+                    <h5>멀티캠퍼스</h5>
+                    <span class='year'>2021</span>
+                    <p><strong>데이터 사이언스/엔지니어링 과정 수료 (2021.07 ~ 2021.12)</strong></p>
+                    </div>
+                    <div class='education__content'>
+                    <h5>NIA 한국지능정보사회진흥원 주최 공공 인턴</h5>
+                    <span class='year'>2022</span>
+                    <p><strong>데이터 사이언스랩 인턴 (2022.07.01 ~ 2022.11.30)</strong>
+                            <br> - 공공데이터 처리 및 시각화
+                            <br> - 데이터 플랫폼 Front-end 개발
+                    </p>
+                    </div>
+                    <div class='education__content'>
+                    <h5>TmaxOS</h5>
+                    <span class='year'>2023</span>
+                    <p><strong>UX팀, 제품기획팀 (2023.01.02 ~)</strong>
+                            <br> - 보안용 운영체제 제품 기획 및 관리
+                            <br> - 운영체제 중앙 관리 서버 기획 및 관리
+                    </p>
+                    </div>
+                    <div class='education__content'>
+                        <h5>TmaxCloud (TmaxOS 합병)</h5>
+                        <span class='year'>2024</span>
+                        <p><strong>제품기획팀 (2023.01.02 ~)</strong>
+                            <br> - 보안용 운영체제 제품 기획 및 관리
+                            <br> - 운영체제 중앙 관리 서버 기획 및 관리
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class = "contact section"  id="contact">
+                <!-- Timeline -->
+                
+                <!-- Timeline code test end -->
+                <h2 class="section-title">Awards</h2>
+                <div>
+            
+                </div>
+                <div class="skills__container bd-grid">
+                    
+                 <div>
+                    <p class="skills__subtitle"><Strong>Icon</Strong>을 클릭하면, 상장 이미지를 확인할 수 있습니다.</p>
+                <!--===== career 1=====-->
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <a href="assets/img/award1.pdf">
+                        <i class='bx bx-car skills__icon'>
+                        </i>
+                    </a>
+                        <span class="skills__name">
+                            1. 데이터시각화 프로젝트(멀티캠퍼스 주관)
+                            <br>주제 : 전기차 이대로 괜찮은가?
+                            <br>우수상
+                            
+                        </span>
+                  
+                    </div>
+                    <div class="career__bar skills__graduation">
+                        
+                    </div>
+                    <div>
+                       
+                    </div>
+                </div>
+                <!--===== career 2=====-->
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <a href="assets/img/award3.pdf">
+                        <i class='bx bx-data skills__icon'></i>
+                    </a>
+                        <span class="skills__name">
+                            2. 빅데이터 활용 프로젝트 (멀티캠퍼스 주관)
+                            <br>주제 : 웹크롤링과 MongoDB를 이용한 실시간 주식데이터 생성
+                            <br> 최우수상
+                        </span>
+                    
+                    </div>
+                    <div class="career__bar skills__edu">
+                        
+                    </div>
+                    <div>
+                       
+                    </div>
+                </div>
+                <!--===== career 3=====-->
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <a href="assets/img/award2.pdf">
+                        <i class='bx bx-dish skills__icon'></i>
+                    </a>
+                        <span class="skills__name">
+                            3. 기업요구사항 기반의 문제해결 프로젝트 (멀티캠퍼스 주관)
+                            <br> 주제 : 외국인을 위한 한식 이미지 분류 및 정보 제공 서비스 구현
+                            <br> 우수상 
+                        </span>
+                    
+                    </div>
+                    <div class="career__bar skills__career">
+                        
+                    </div> 
+                </div>
+                 <!--===== career 4=====-->
+                 <div class="skills__data">
+                    <div class="skills__names">
+                        <a href="assets/img/award4.jpg">
+                        <i class='bx bx-chart skills__icon'></i></a>
+                        <span class="skills__name">
+                            4. 2022년 공공데이터 아이디어 해커톤 (한국지능정보사회진흥원 주관)
+                            <br> 최우수상
+                        </span>
+                  
+                    </div>
+                    <div class="career__bar skills__award">
+                        
+                    </div> 
+                </div>
+             </div> 
+             <div>           
+                <img src="assets/img/awardsimage.png" alt="" class="skills__img">
+               </div>
+            </div>
+            </section>
+          <!--===== another skills=====-->
+            <section class="contact section-2" id="Anotherskill">
+    
+                <h2 class="section-title">Another Skills</h2>
+                <div class="skills__container bd-grid">
+                <!-- <h2 class="skills__subtitle">Another Skills</h2> -->
+                 <div>
+                   <i class='bx bx-music skills__icon'></i><strong>1. Music producing (Cubase)</strong>
+                 </div>
+                 <br>
+                 <div>
+                    <i class='bx bx-paint skills__icon'></i><strong>2. Painting (ProCreate)</strong>
+                 </div>
+                 <br>
+                 <div>
+                    <i class='bx bx-video skills__icon'></i><strong>3. Video Editing (LumaFusion, Adobe After Effect)</strong>
+                  </div>
+                <br>
+                <div>
+                  <a href="https://www.youtube.com/channel/UCmEmHiP8RvP5qFdqZpe2hgQ" class="home__social-icon"><i class='bx bxl-youtube' ></i></a>
+                  <a href="https://soundcloud.com/user-58129437" class="home__social-icon"><i class='bx bxl-soundcloud' ></i></a>
+                </div>
+            </section>
+            
+            
+        </main>
+          
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Hyoseok</p>
+            <div class="footer__social">
+                <!-- <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a> -->
+            </div>
+            <p class="footer__copy"></p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
